@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ml-playground"
+version = "0.1.0"
+description = "Playground for learning machine learning"
+authors = ["Rebeca Méndez"]
+readme = "README.md"
+packages = [{ include = "ml_playground" }]
+
+[tool.poetry.dependencies]
+python = "3.9.8"
+pandas = "2.2.2"
+xgboost = "2.0.3"
+scikit-learn = "1.4.2"
+ipykernel = "^6.29.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

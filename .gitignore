@@ -1,0 +1,8 @@
+# ignore osx files
+.DS_Store
+
+# Ignore python virtual env files
+.venv
+
+# Ignore dta transformation files
+tmp
